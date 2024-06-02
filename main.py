@@ -30,8 +30,8 @@ def copy_files_from_mobile(source_path, destination_path):
             print(f"Error copying {src_file}: {result.stderr}")
 
 # Define source and destination paths
-source_path = "/storage/emulated/0/"  # Change this to your source folder on the Android device
-destination_path = "E:/SURESH/MD2023-2024"  # Change this to your destination folder on the E: drive
+source_path = "/storage/emulated/0/Your folder path"  # Change this to your source folder on the Android device
+destination_path = "Destination path"  # Change this to your destination folder on the E: drive
 
 # Copy files from mobile to D: drive
 copy_files_from_mobile(source_path, destination_path)
